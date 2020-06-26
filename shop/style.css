@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    pading: 0;
+    box-sizing: border-box;
+}
+:root{
+--bg-color: #2C2D34;
+}
+
+header{
+    background-color: var(--bg-color);
+    height: 80px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+nav{
+    width: 600px;
+    display: flex;
+    justify-content: space-around;
+}
+header nav a{
+    color: white;
+    font-size: 25px;
+    font-family: 'Krona One', sans-serif;
+    text-decoration: none;
+}
+header nav a:hover{
+    color: red;
+    text-decoration:underline;
+}
+.shop_main{
+    padding-bottom: 7em;
+    padding-left: 5em;
+    padding-right: 5em;
+}
+.shop_main #about{
+    width: 50%;
+    display:flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.shop_main h4{
+    font-family: 'Krona One', sans-serif;
+    font-size: 3em;
+    text-align: center;
+    margin:1em;
+}
+.shop_main p{
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.55;
+    font-size: 1.5em;
+    padding: 2em;
+}
+
+.books_shop{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    text-align:center;
+}
+.books_shop a{
+    text-decoration:none;
+    font-size: 2em;
+    color: black;
+    width: 700px;
+}
+.books_shop img{
+    width: 350px;
+    padding-bottom: 50px;
+    margin: 0 auto;
+}
+.wrap{
+    display:flex;
+    justify-content: space-around;
+    margin-bottom: 4em;
+}
+
+
+footer{
+    height: 80px;
+    margin-top: 20em;
+    display:flex;
+    justify-content:space-around;
+    background-color: var(--bg-color);
+    align-items: center;
+}
+footer a {
+    color: white;
+    font-size: 2em;
+}
+

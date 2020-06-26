@@ -1,0 +1,18 @@
+h1, h5{
+    text-align: center;
+    text-transform: uppercase;
+}
+p{
+    font-size: 43px;
+    font-family: 'Pangolin', cursive;
+    text-align: center;
+    letter-spacing: 1.5px;
+}
+img{
+    width: 200px;
+}
+  table th{
+    border: 1px solid black;
+    font-size: 23px;
+    font-family: 'Pangolin', cursive;
+}
